@@ -1,0 +1,96 @@
+.Education {
+  font-size: 1rem;
+  margin-top: 3rem;
+  padding-right: 1.2rem;
+}
+
+.Education h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.Education h3::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  border: 1px dashed rgb(128, 128, 128);
+  width: 90%;
+}
+
+.eduWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(128, 128, 128);
+  padding: 0 1rem;
+  margin: 2rem 1rem 2rem 1rem;
+}
+
+.eduWrapper p {
+  font-size: 1rem;
+}
+
+.timeLine {
+  border-radius: 1rem;
+  flex-basis: 40%;
+  position: relative;
+  padding: 0.4rem 1.5rem;
+  /* font-size: 0.9rem; */
+  background-color: #2d2d2d;
+}
+
+.timeLine p {
+  font-size: 0.8rem;
+  color: rgb(128, 128, 128);
+}
+
+.timeLine::after {
+  content: "";
+  display: inline-block;
+  width: 1vw;
+  height: 1vw;
+  left: -1.5rem;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #eb4a4c;
+}
+
+.eduWrapper div {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title h5 {
+  font-size: 0.9rem;
+  padding-bottom: 0.2rem;
+}
+
+.title p {
+  font-size: 0.8rem;
+  color: #eee;
+}
+
+@media only screen and (max-width: 768px) {
+  .eduWrapper div {
+    flex-direction: column;
+  }
+
+  .eduWrapper .uni {
+    font-size: 0.8rem;
+  }
+  .Education .timeLine::after {
+    display: none;
+  }
+}

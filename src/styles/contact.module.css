@@ -1,0 +1,155 @@
+.contactSection {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.contactSection h2 {
+  color: #fff;
+  font-size: 2rem;
+  position: relative;
+  padding-bottom: 1.6rem;
+}
+
+.contactSection h2::after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  border-top: 1px dashed rgb(120, 120, 120);
+  bottom: 0;
+  left: 0;
+}
+
+.contactSection h2 span {
+  color: #eb4a4c;
+}
+
+.infoWrapper {
+  flex-basis: 40%;
+}
+
+.infos {
+  padding-top: 3rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.infoSection {
+  width: 100%;
+  border-radius: 0.8rem;
+  padding: 0.6rem 1rem;
+  background-color: #222222;
+  margin-bottom: 1.2rem;
+}
+
+.infoSection span {
+  align-items: flex-start;
+  margin-top: -0.2rem;
+}
+
+.icon {
+  color: #eb4a4c;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.infoSection p {
+  display: flex;
+  align-items: flex-start;
+  color: #aaa;
+}
+
+.infoSection p:hover {
+  color: #eb4a4c;
+}
+
+.form {
+  margin-right: 2rem;
+}
+
+.form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.form input {
+  padding: 0.5rem;
+  width: 50%;
+  background-color: #222222;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 0.8rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+}
+
+.form textarea {
+  margin-top: 1.5rem;
+  background-color: #222222;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 0.8rem;
+  padding: 1rem 1rem;
+  min-width: 100%;
+  max-width: 100%;
+  resize: none;
+  min-height: 5rem;
+}
+
+.form button {
+  margin-top: 1.5rem;
+  background-color: #eb4a4c;
+  padding: 1rem 2.6rem;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 1.6rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.form button:hover {
+  color: #eb4a4c;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 450px) {
+  .contactSection {
+    backdrop-filter: blur(0px);
+    overflow: scroll;
+  }
+  .infos {
+    padding-top: 1rem;
+    flex-direction: column;
+  }
+  .infoWrapper {
+    width: 100%;
+  }
+  .infoSection {
+    width: 100%;
+  }
+  .infoSection:nth-child(2) span {
+    font-size: 1rem;
+  }
+  .form div input {
+    width: 100%;
+  }
+  .form div {
+    flex-direction: column;
+  }
+  .form {
+    margin: 0;
+  }
+
+  .form button {
+    width: 100%;
+  }
+}

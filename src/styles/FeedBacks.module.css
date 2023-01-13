@@ -1,0 +1,110 @@
+.FeedBacks {
+  font-size: 1rem;
+  margin-top: 3rem;
+  padding-right: 1.2rem;
+}
+.FeedBacks h3 span {
+  color: #eb4a4c;
+}
+
+.FeedBacks h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.FeedBacks h3::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  border: 1px dashed rgb(128, 128, 128);
+  width: 90%;
+}
+
+.quotesWrapper {
+  width: 100%;
+  margin: 3rem 0 2rem 0;
+  position: relative;
+}
+
+.clientQuote {
+  width: 80%;
+  height: 20vh;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 84%,
+    75% 84%,
+    75% 100%,
+    50% 85%,
+    0 84%
+  );
+
+  background-color: transparent;
+  position: relative;
+  background-color: #fff;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.overlay {
+  content: "";
+  width: 99.5%;
+  height: 99%;
+  display: inline-block;
+  top: 0.5%;
+  left: 0.2%;
+  position: absolute;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 84%,
+    75% 84%,
+    75% 100%,
+    50% 85%,
+    0 84%
+  );
+  background-color: #222;
+}
+
+.quoteIcon {
+  color: #eb4a4c;
+  font-size: 2rem;
+  position: absolute;
+  z-index: 1000;
+  top: -1rem;
+  left: 1rem;
+}
+
+.clientQuote p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  z-index: 1000;
+  color: #eee;
+  position: absolute;
+}
+
+.clientWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5rem 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .clientWrapper {
+    height: 20vh;
+    width: 80%;
+    justify-content: flex-end;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: auto;
+  }
+  .clientWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

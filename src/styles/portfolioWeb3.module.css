@@ -1,0 +1,56 @@
+.projectList {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-right: 2rem;
+  list-style: none;
+}
+
+.projectList li a {
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.projects {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects div {
+  width: 20vw;
+  height: 20vw;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.projects div {
+  background-color: #fff;
+}
+
+.projects div:nth-child(2) img {
+  max-width: 80%;
+  max-height: 80%;
+}
+.projects div:nth-child(1) img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.projects div img:hover {
+  transition: all 0.2s ease-in-out;
+}
+.projects div img:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 450px) {
+  .projects div {
+    width: 35vw;
+    height: 35vw;
+  }
+}

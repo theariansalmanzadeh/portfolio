@@ -1,0 +1,71 @@
+.languages {
+  margin-top: 3rem;
+}
+
+.languages h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+.languages h3::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  border: 1px dashed rgb(128, 128, 128);
+  width: 90%;
+}
+
+.languages h3 span {
+  color: #eb4a4c;
+}
+
+.AllLangs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.langWrapper {
+  margin-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.langWrapper .langSkill {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  background-color: #eb4a4c;
+  position: relative;
+}
+
+.langSkill p {
+  z-index: 120;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.langWrapper .langSkill::before {
+  content: "";
+  width: 6.7vw;
+  height: 6.7vw;
+  border-radius: 50%;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #222;
+}
+
+.langWrapper p {
+  font-size: 1rem;
+}

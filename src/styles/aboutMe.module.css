@@ -1,0 +1,186 @@
+.aboutme {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  backdrop-filter: blur(10px);
+}
+
+.profileImg {
+  flex-basis: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profileImg img {
+  width: 100%;
+  position: relative;
+  border-radius: 1rem;
+}
+.imgWrapper {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  border-radius: 1rem;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  background: linear-gradient(rgba(34, 34, 34, 0.3), rgba(0, 0, 0, 0.3));
+  border-radius: 1rem;
+}
+
+.detailWrapper {
+  flex-basis: 60%;
+  align-self: flex-start;
+  margin-top: 3rem;
+  color: #aaa;
+}
+.detailWrapper h2 {
+  color: #fff;
+  font-size: 2.4rem;
+}
+
+.detailWrapper span {
+  color: #eb4a4c;
+}
+
+.subHeading {
+  padding: 1rem 0;
+  position: relative;
+}
+
+.specialWrapper::after {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  border-top: 1px dashed rgb(128, 128, 128);
+  bottom: 0%;
+  left: 0;
+}
+
+.detailWrapper p {
+  line-height: 1.6rem;
+}
+.detailWrapper p span {
+  color: #fff;
+}
+
+.detailWrapper p:nth-of-type(2) {
+  margin: 1rem 0 2rem 0;
+}
+
+.detailWrapper button {
+  margin-top: 2rem;
+  padding: 1rem;
+  color: #fff;
+  background-color: #eb4a4c;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.4rem;
+}
+
+.specialWrapper {
+  position: relative;
+  display: flex;
+}
+
+.majorField {
+  list-style: none;
+  color: #fff;
+  display: inline-block;
+  perspective: 100rem;
+  width: 20%;
+}
+.majorField li {
+  top: 30%;
+  left: 10%;
+  display: inline-block;
+  /* transform: translateY(-100%); */
+  position: absolute;
+  opacity: 0;
+  transform: rotateX(90deg);
+  transform-origin: bottom;
+  animation: diplaySkills 14s ease-in-out infinite;
+}
+.majorField li:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.majorField li:nth-of-type(2) {
+  animation-delay: 3.5s;
+}
+.majorField li:nth-of-type(3) {
+  animation-delay: 7s;
+}
+.majorField li:nth-of-type(4) {
+  animation-delay: 10.5s;
+}
+
+@keyframes diplaySkills {
+  0% {
+    transform: rotateX(40deg);
+    opacity: 0;
+  }
+  3.5% {
+    transform: rotateX(40deg);
+    opacity: 0;
+  }
+  6% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  20.3% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  23.8% {
+    transform: rotateX(-40deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(-90deg);
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .aboutme {
+    flex-direction: column;
+    padding: 0;
+    overflow: scroll;
+  }
+  .profileImg {
+    width: 100%;
+  }
+  .imgWrapper {
+    width: 100%;
+  }
+  .detailWrapper h2 {
+    font-size: 1.6rem;
+  }
+
+  .detailWrapper p {
+    font-size: 1rem;
+  }
+
+  .detailWrapper button {
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 0.3rem 0;
+  }
+  .detailWrapper p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+}

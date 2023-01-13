@@ -1,0 +1,68 @@
+.skills {
+  margin-top: 3rem;
+}
+
+.skills h3 {
+  color: #eb4a4c;
+  position: relative;
+  padding-bottom: 1.2rem;
+}
+.skills h3::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  border: 1px dashed rgb(128, 128, 128);
+  width: 90%;
+}
+
+.skillsWrapper {
+  padding-top: 1rem;
+}
+.skillsWrapper p {
+  font-size: 1rem;
+  color: #eee;
+}
+
+.skillName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.progressbar {
+  margin-top: 0.6rem;
+  width: 90%;
+  height: 0.2rem;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.skill {
+  margin-top: 0.8rem;
+}
+
+.progressbar div {
+  height: 100%;
+  /* width: 50%; */
+  background-color: #eb4a4c;
+}
+
+.progress {
+  transform: translateX(-100%);
+}
+
+.progressAnim {
+  animation: showProgress 1s ease-in-out forwards;
+}
+
+@keyframes showProgress {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
