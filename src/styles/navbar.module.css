@@ -46,9 +46,9 @@
   .burgerMenuBtn {
     display: block;
     color: #eb4a4c;
-    font-size: 2rem;
+    font-size: 3rem;
     position: fixed;
-    top: 5rem;
+    top: 2rem;
     right: 1rem;
   }
   .burgerMenu {

@@ -14,12 +14,13 @@ function Navbar() {
   return (
     <React.Fragment>
       {showMenu && <BurgerMenu menuHandler={burgerMenuHandler} />}
-      <RiMenu4Line
-        className={styles.burgerMenuBtn}
+      <div
         onClick={() => {
           burgerMenuHandler(true);
         }}
-      />
+      >
+        <RiMenu4Line className={styles.burgerMenuBtn} />
+      </div>
       <div className={styles.Navbar}>
         <ul>
           <li>
