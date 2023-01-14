@@ -16,15 +16,19 @@ function Electronics() {
             </li>
             <li>
               <FaCaretRight className={styles.icon} />
-              STM32 microcontroller programming
+              STM32 microcontroller programming with C language
             </li>
             <li>
               <FaCaretRight className={styles.icon} />
-              AVR programming
+              AVR programming with C language
             </li>
             <li>
               <FaCaretRight className={styles.icon} />
-              Familiar with communication protocols
+              Familiar with communication protocols (I2C,SPI,UART)
+            </li>
+            <li>
+              <FaCaretRight className={styles.icon} />
+              Familiar with RTOS(FreeRTOS)
             </li>
           </ul>
         </div>

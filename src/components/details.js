@@ -8,7 +8,7 @@ function Details({ ModalHandler }) {
         Arian <span>Salmanzadeh</span>
       </h2>
       <div className={styles.specialWrapper}>
-        <p className={styles.subHeading}>spesialist in</p>
+        <p className={styles.subHeading}>specialist in</p>
         <ul className={styles.majorField}>
           <li>blockchain</li>
           <li>web Dev</li>

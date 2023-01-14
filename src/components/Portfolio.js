@@ -48,9 +48,9 @@ function Portfolio() {
           </ul>
         </div>
         <Routes>
-          <Route path="/web2" element={<Web2 modalHandler={modalHandler} />} />
-          <Route path="/web3" element={<Web3 modalHandler={modalHandler} />} />
-          <Route path="/electronics" element={<Electronics />} />
+          <Route path="web2" element={<Web2 modalHandler={modalHandler} />} />
+          <Route path="web3" element={<Web3 modalHandler={modalHandler} />} />
+          <Route path="electronics" element={<Electronics />} />
           <Route path="/" end element={<Navigate to="web2" />} />
         </Routes>
       </motion.div>

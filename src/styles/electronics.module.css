@@ -11,6 +11,7 @@
 .Electronics ul {
   padding-top: 1rem;
   padding-left: 1rem;
+  display: block;
 }
 
 .Electronics ul li {

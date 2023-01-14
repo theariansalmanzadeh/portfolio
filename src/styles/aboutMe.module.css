@@ -177,7 +177,8 @@
   .detailWrapper button {
     width: 100%;
     font-size: 1.4rem;
-    padding: 0.3rem 0;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
   }
   .detailWrapper p {
     font-size: 1.2rem;
