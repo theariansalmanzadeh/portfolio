@@ -1,3 +1,5 @@
+import { IoWarning } from "react-icons/io";
+
 export const projects = [
   {
     title: "Tesla",
@@ -23,6 +25,7 @@ export const projects = [
   {
     title: "LinkedIn",
     img: "likedIn.png",
+    projectGithub: "https://github.com/theariansalmanzadeh/linkedIn",
     aboutProject:
       "a Clone of the liknedIn website.user may sign or login with email or google account. with google all the google account data will be available. user can delete sign out and upload posts.settings section has 2 options only",
     techs: [
@@ -60,7 +63,7 @@ export const projects = [
     projectGithub: "https://github.com/theariansalmanzadeh/safwall",
     projectLink: "https://safwall.netlify.app/",
     aboutProject:
-      "a crypto wallet witch users can build their own wallet and use it. this project features staking ether,sending ether and buying tokens.noteworthy this wallet is hosted on goerli chain only.dependent on the users location some of the APIs may not work(in case of using vpn please also use borowser vpn extnsions)",
+      "a crypto wallet witch users can build their own wallet and use it. this project features staking ether,sending ether and buying tokens.noteworthy this wallet is hosted on goerli chain only.Cautions: dependent on the users location some of the APIs may not work(in case of using vpn please also use borowser vpn extnsions)",
     techs: [
       "HTML",
       "Sass",
@@ -68,7 +71,8 @@ export const projects = [
       "ethers.js",
       "Hardhat",
       "Solidity",
-      "Uniswap API",
+      "bootstrap",
+      "Uniswap sdk",
       "Etherscan API",
       "React",
     ],
@@ -104,4 +108,5 @@ export const skills = [
   { name: "JS", perc: 60 },
   { name: "React", perc: 70 },
   { name: "Solidity", perc: 65 },
+  { name: "golang", perc: 25 },
 ];
