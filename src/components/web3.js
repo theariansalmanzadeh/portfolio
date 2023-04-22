@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "../styles/portfolioWeb3.module.css";
 import project1 from "../images/crypto.png";
-import project2 from "../images/staking.jpg";
+import project2 from "../images/TWT.png";
+import project3 from "../images/lendify.png";
 
 function web3({ modalHandler }) {
   const projectPreviewHandler = (e) => {
@@ -26,6 +27,14 @@ function web3({ modalHandler }) {
           id="4"
           src={project2}
           alt="web3 second project"
+        />
+      </div>
+      <div>
+        <img
+          className="porject-web3"
+          id="5"
+          src={project3}
+          alt="web3 third project"
         />
       </div>
     </div>

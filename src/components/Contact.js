@@ -2,6 +2,7 @@ import React from "react";
 import EmailForm from "./emailForm.js";
 import styles from "../styles/contact.module.css";
 import { SlLocationPin, SlSocialInstagram } from "react-icons/sl";
+import { ImLinkedin } from "react-icons/im";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaPhone } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -44,8 +45,8 @@ function Contact() {
           </div>
           <div className={styles.infoSection}>
             <p>
-              <SlSocialInstagram className={styles.icon} />
-              <span>theariansalmanzadeh</span>
+              <ImLinkedin className={styles.icon} />
+              <span>Arian Salmanzadeh</span>
             </p>
           </div>
         </div>

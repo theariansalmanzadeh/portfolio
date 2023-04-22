@@ -13,7 +13,7 @@ function Details({ ModalHandler }) {
           <li>blockchain</li>
           <li>web Dev</li>
           <li>FrontEnd</li>
-          <li>Electronics</li>
+          <li>DeFi expert</li>
         </ul>
       </div>
       <p style={{ marginTop: "1.5rem" }}>

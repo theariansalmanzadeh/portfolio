@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 
 function AboutMe() {
   const [showModal, setShowModal] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const ModalHandler = (state) => {
     console.log(state);
@@ -27,8 +28,13 @@ function AboutMe() {
       >
         <div className={styles.profileImg}>
           <div className={styles.imgWrapper}>
-            <img src="./images/arian.jpg" alt="designer" />
+            <img
+              src="./images/arian.jpg"
+              onLoad={() => setLoading(false)}
+              alt="designer"
+            />
             <div className={styles.overlay}></div>
+            {loading && <div className={styles.loading}></div>}
           </div>
         </div>
         <Details ModalHandler={ModalHandler} />

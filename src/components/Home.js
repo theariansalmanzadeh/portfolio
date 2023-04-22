@@ -27,7 +27,7 @@ function Home() {
             <li> FrontEnd Developer</li>
             <li> Web Developer</li>
             <li> Blockchain Developer</li>
-            <li> Freelancer</li>
+            <li> DeFi expert</li>
           </ul>
         </div>
         <div>

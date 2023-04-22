@@ -18,6 +18,27 @@
   width: 90%;
 }
 
+.circle {
+  position: relative;
+}
+
+.circle .donut {
+}
+
+.circle text {
+  position: absolute;
+  transform: translate(30%, 56%);
+  left: 50%;
+  font-size: 2.4rem;
+  fill: rgb(255, 255, 255);
+}
+
+@keyframes fadeIn {
+  to {
+    stroke-dashoffset: 100%;
+  }
+}
+
 .languages h3 span {
   color: #eb4a4c;
 }
@@ -68,4 +89,19 @@
 
 .langWrapper p {
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .AllLangs {
+    flex-direction: column;
+  }
+  .langWrapper:nth-of-type(1) {
+    align-self: flex-start;
+  }
+  .langWrapper:nth-of-type(2) {
+    align-self: flex-end;
+  }
+  .langWrapper:nth-of-type(3) {
+    align-self: flex-start;
+  }
 }

@@ -22,13 +22,40 @@
   border-radius: 1rem;
 }
 .imgWrapper {
-  width: 80%;
-  height: 70%;
+  width: 24vw;
+  height: 40vh;
   display: flex;
   align-items: center;
   overflow: hidden;
   position: relative;
   border-radius: 1rem;
+}
+
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(51, 51, 51, 0.9) 0% 10%,
+    rgba(170, 170, 170, 0.9) 30% 40%,
+    rgba(51, 51, 51, 0.9) 60% 100%
+  );
+  background-size: 400%;
+  background-position: left;
+  animation: loading 1s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes loading {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
 }
 
 .overlay {
@@ -101,7 +128,7 @@
   color: #fff;
   display: inline-block;
   perspective: 100rem;
-  width: 20%;
+  width: 28%;
 }
 .majorField li {
   top: 30%;

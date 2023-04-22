@@ -37,10 +37,12 @@ function Preview({ id, ModalHandler }) {
           })}
         </ul>
         <div className={styles.projectInterActions}>
-          <button>view Project</button>
-          <button>
+          <a href={project.projectLink} rel="noreferrer" target="_blank">
+            view Project
+          </a>
+          <a href={project.projectGithub} rel="noreferrer" target="_blank">
             see code on GitHub <BsGithub />
-          </button>
+          </a>
         </div>
       </div>
     </div>

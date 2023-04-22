@@ -1,8 +1,7 @@
-import { Component } from "react";
-
 export const projects = [
   {
     title: "Tesla",
+    projectGithub: "https://github.com/theariansalmanzadeh/tesla-website",
     img: "tesla.jpg",
     aboutProject: "a small Clone of the tesla website ",
     techs: [
@@ -17,6 +16,7 @@ export const projects = [
   {
     title: "achapal",
     img: "house.jpg",
+    projectGithub: "https://github.com/theariansalmanzadeh/achipal",
     aboutProject: "a small constructing and interior design website ",
     techs: ["HTML", "Css", "Vanilla JS", "Tilt.js"],
   },
@@ -39,6 +39,8 @@ export const projects = [
   },
   {
     title: "octo Crypto",
+    projectLink: "https://octocrypto.netlify.app",
+    projectGithub: "https://github.com/theariansalmanzadeh/nftMarket",
     img: "crypto.png",
     aboutProject: "a NFT Marketplace for selling and buying octo NFT's",
     techs: [
@@ -53,10 +55,12 @@ export const projects = [
     ],
   },
   {
-    title: "Staker",
-    img: "staking.jpg",
+    title: "saf wall",
+    img: "TWT.png",
+    projectGithub: "https://github.com/theariansalmanzadeh/safwall",
+    projectLink: "https://safwall.netlify.app/",
     aboutProject:
-      "a website for staking/unstaking goerli ETH and get AST Token's",
+      "a crypto wallet witch users can build their own wallet and use it. this project features staking ether,sending ether and buying tokens.noteworthy this wallet is hosted on goerli chain only.dependent on the users location some of the APIs may not work(in case of using vpn please also use borowser vpn extnsions)",
     techs: [
       "HTML",
       "Sass",
@@ -64,6 +68,27 @@ export const projects = [
       "ethers.js",
       "Hardhat",
       "Solidity",
+      "Uniswap API",
+      "Etherscan API",
+      "React",
+    ],
+  },
+  {
+    title: "lendify",
+    img: "lendify.png",
+    projectGithub: "https://github.com/theariansalmanzadeh/lendify",
+    projectLink: "https://cryptolendify.netlify.app/home",
+    aboutProject:
+      "a platform which users can use their NFTs as collateral and borrow ether instead, the smart contract uses chainLink for a automation dead line and if the user doens't pay the loan with it's intrest rate the nft will be taken.the contrac tis onb the goerli blockchain",
+    techs: [
+      "HTML",
+      "Sass",
+      "React Router",
+      "ethers.js",
+      "Hardhat",
+      "Solidity",
+      "Etherscan API",
+      "block span API",
       "Metamask/provider",
       "React",
       "React Redux",
