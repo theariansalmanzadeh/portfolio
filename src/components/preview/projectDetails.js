@@ -99,6 +99,7 @@ export const projects = [
       "Metamask/provider",
       "React",
       "React Redux",
+      "Pinata API",
     ],
   },
 ];
