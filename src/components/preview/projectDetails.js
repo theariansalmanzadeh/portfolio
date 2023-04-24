@@ -40,27 +40,6 @@ export const projects = [
       "React Redux",
     ],
   },
-
-  {
-    title: "saf wall",
-    img: "TWT.png",
-    projectGithub: "https://github.com/theariansalmanzadeh/safwall",
-    projectLink: "https://safwall.netlify.app/",
-    aboutProject:
-      "a crypto wallet witch users can build their own wallet and use it. this project features staking ether,sending ether and buying tokens.noteworthy this wallet is hosted on goerli chain only.Cautions: dependent on the users location some of the APIs may not work(please use a browser vpn extesion)",
-    techs: [
-      "HTML",
-      "Sass",
-      "React Router",
-      "ethers.js",
-      "Hardhat",
-      "Solidity",
-      "bootstrap",
-      "Uniswap sdk",
-      "Etherscan API",
-      "React",
-    ],
-  },
   {
     title: "lendify",
     img: "lendify.png",
@@ -82,6 +61,28 @@ export const projects = [
       "React Redux",
     ],
   },
+
+  {
+    title: "saf wall",
+    img: "TWT.png",
+    projectGithub: "https://github.com/theariansalmanzadeh/safwall",
+    projectLink: "https://safwall.netlify.app/",
+    aboutProject:
+      "a crypto wallet witch users can build their own wallet and use it. this project features staking ether,sending ether and buying tokens.noteworthy this wallet is hosted on goerli chain only.Cautions: dependent on the users location some of the APIs may not work(please use a browser vpn extesion)",
+    techs: [
+      "HTML",
+      "Sass",
+      "React Router",
+      "ethers.js",
+      "Hardhat",
+      "Solidity",
+      "bootstrap",
+      "Uniswap sdk",
+      "Etherscan API",
+      "React",
+    ],
+  },
+
   {
     title: "octo Crypto",
     projectLink: "https://octocrypto.netlify.app",
