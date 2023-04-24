@@ -40,31 +40,14 @@ export const projects = [
       "React Redux",
     ],
   },
-  {
-    title: "octo Crypto",
-    projectLink: "https://octocrypto.netlify.app",
-    projectGithub: "https://github.com/theariansalmanzadeh/nftMarket",
-    img: "crypto.png",
-    aboutProject:
-      "a simple NFT Marketplace for selling and buying octo NFT's.Cautions: dependent on the users location some of the APIs may not work(pleae use a browser vpn extesion)",
-    techs: [
-      "HTML",
-      "Sass",
-      "React Router",
-      "ethers.js",
-      "Solidity",
-      "Metamask/provider",
-      "React",
-      "React Redux",
-    ],
-  },
+
   {
     title: "saf wall",
     img: "TWT.png",
     projectGithub: "https://github.com/theariansalmanzadeh/safwall",
     projectLink: "https://safwall.netlify.app/",
     aboutProject:
-      "a crypto wallet witch users can build their own wallet and use it. this project features staking ether,sending ether and buying tokens.noteworthy this wallet is hosted on goerli chain only.Cautions: dependent on the users location some of the APIs may not work(pleae use a browser vpn extesion)",
+      "a crypto wallet witch users can build their own wallet and use it. this project features staking ether,sending ether and buying tokens.noteworthy this wallet is hosted on goerli chain only.Cautions: dependent on the users location some of the APIs may not work(please use a browser vpn extesion)",
     techs: [
       "HTML",
       "Sass",
@@ -84,7 +67,7 @@ export const projects = [
     projectGithub: "https://github.com/theariansalmanzadeh/lendify",
     projectLink: "https://cryptolendify.netlify.app/home",
     aboutProject:
-      "a platform which users can use their NFTs as collateral and borrow ether instead, the smart contract uses chainLink for a automation dead line and if the user doens't pay the loan with it's intrest rate the nft will be taken.the contrac tis onb the goerli blockchain.(pleae use a browser vpn extesion)",
+      "a platform which users can use their NFTs as collateral and borrow ether instead, the smart contract uses chainLink for a automation dead line and if the user doens't pay the loan with it's intrest rate the nft will be taken.the contrac tis onb the goerli blockchain.(please use a browser vpn extesion)",
     techs: [
       "HTML",
       "Sass",
@@ -94,6 +77,24 @@ export const projects = [
       "Solidity",
       "Etherscan API",
       "block span API",
+      "Metamask/provider",
+      "React",
+      "React Redux",
+    ],
+  },
+  {
+    title: "octo Crypto",
+    projectLink: "https://octocrypto.netlify.app",
+    projectGithub: "https://github.com/theariansalmanzadeh/nftMarket",
+    img: "crypto.png",
+    aboutProject:
+      "a simple NFT Marketplace for selling and buying octo NFT's.Cautions: dependent on the users location some of the APIs may not work(please use a browser vpn extesion)",
+    techs: [
+      "HTML",
+      "Sass",
+      "React Router",
+      "ethers.js",
+      "Solidity",
       "Metamask/provider",
       "React",
       "React Redux",
