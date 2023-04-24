@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "../styles/portfolioWeb3.module.css";
-import project1 from "../images/crypto.png";
+import project3 from "../images/crypto.png";
 import project2 from "../images/TWT.png";
-import project3 from "../images/lendify.png";
+import project1 from "../images/lendify.png";
 
 function web3({ modalHandler }) {
   const projectPreviewHandler = (e) => {
