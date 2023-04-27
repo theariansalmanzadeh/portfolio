@@ -3,6 +3,7 @@ import { IoWarning } from "react-icons/io";
 export const projects = [
   {
     title: "Tesla",
+    projectLink: "https://tesla-arian.netlify.app/",
     projectGithub: "https://github.com/theariansalmanzadeh/tesla-website",
     img: "tesla.jpg",
     aboutProject: "a small Clone of the tesla website ",
@@ -16,8 +17,9 @@ export const projects = [
     ],
   },
   {
-    title: "achapal",
+    title: "achipal",
     img: "house.jpg",
+    projectLink: "https://achipal.netlify.app/",
     projectGithub: "https://github.com/theariansalmanzadeh/achipal",
     aboutProject: "a small constructing and interior design website ",
     techs: ["HTML", "Css", "Vanilla JS", "Tilt.js"],
