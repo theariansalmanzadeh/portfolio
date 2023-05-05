@@ -27,14 +27,15 @@ export const projects = [
   {
     title: "LinkedIn",
     img: "likedIn.png",
+    projectLink: "https://linkedin-arian.netlify.app",
     projectGithub: "https://github.com/theariansalmanzadeh/linkedIn",
     aboutProject:
-      "a Clone of the liknedIn website.user may sign or login with email or google account. with google all the google account data will be available. user can delete sign out and upload posts.settings section has 2 options only",
+      "a Clone of the liknedIn website.user may sign or login with email or google account. with google all the google account data will be available. user can delete sign out and upload posts.settings section has 2 options only. by default news post will show up.Cautions: dependent on the users location some of the APIs may not work(please use a browser vpn extesion)",
     techs: [
       "HTML",
       "Css",
       "style Component",
-      "intersectionObserver",
+      "google and emial auth",
       "React",
       "News API",
       "FireBase",
