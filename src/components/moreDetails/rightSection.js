@@ -19,7 +19,7 @@ function RightSection() {
       <Education />
       <Experieces />
       {/* <Certificates /> */}
-      <FeedBacks />
+      {/* <FeedBacks /> */}
     </div>
   );
 }

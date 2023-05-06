@@ -1,0 +1,40 @@
+.header {
+  color: #eb4a4c;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+.wrapper {
+  padding: 3rem 3rem 0 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subHeading {
+  color: #fff;
+  margin: 1rem 0 0 3rem;
+}
+
+.project p {
+  color: #fff;
+}
+
+.project a {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+}
+
+.icon {
+  color: #eb4a4c;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .Electronics ul li {
+    font-size: 1rem;
+  }
+}

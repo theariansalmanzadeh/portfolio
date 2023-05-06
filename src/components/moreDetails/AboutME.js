@@ -11,7 +11,7 @@ function AboutME() {
         Hello there! My name is Arian Salmanzadeh.I am a blockchain developer,
         and I'm very passionate and dedicated to my work. starting With embedded
         development (c and c++) i dedicated to become a developer and devoted my
-        time to be best in this field
+        time to be best in this field.
       </p>
     </div>
   );

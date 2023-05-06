@@ -10,29 +10,29 @@ function Experieces() {
       <div className={styles.ExpWrapper}>
         <div>
           <div className={styles.timeLine}>
-            <p>2014-2016</p>
+            <p>2018-2021</p>
           </div>
           <div className={styles.title}>
-            <h5>Mehraeen school</h5>
-            <p>Diploma</p>
+            <h5>Epra</h5>
+            <p>embedded system developer</p>
           </div>
         </div>
         <div>
           <div className={styles.timeLine}>
-            <p>2014-2016</p>
+            <p>2021-2022</p>
           </div>
           <div className={styles.title}>
-            <h5>Science and Research university</h5>
-            <p>Bachoular degree</p>
+            <h5>Hana</h5>
+            <p>embedded system developer</p>
           </div>
         </div>
         <div>
           <div className={styles.timeLine}>
-            <p>2014-2016</p>
+            <p>2022-2023</p>
           </div>
           <div className={styles.title}>
-            <h5>Vienna university</h5>
-            <p>Master degree</p>
+            <h5>freelancing</h5>
+            <p>embedded system</p>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import profile from "../images/arian.jpg";
 import { motion } from "framer-motion";
 import Web2 from "./web2.js";
 import Web3 from "./web3.js";
-import Electronics from "./Electronics.js";
+import Solidity from "./solidity.js";
 import PreviewModal from "./preview/PreviewModal";
 
 function Portfolio() {
@@ -43,14 +43,14 @@ function Portfolio() {
               <Link to="web3">Web3</Link>
             </li>
             <li>
-              <Link to="electronics">Electronics</Link>
+              <Link to="solidity">solidity</Link>
             </li>
           </ul>
         </div>
         <Routes>
           <Route path="web2" element={<Web2 modalHandler={modalHandler} />} />
           <Route path="web3" element={<Web3 modalHandler={modalHandler} />} />
-          <Route path="electronics" element={<Electronics />} />
+          <Route path="solidity" element={<Solidity />} />
           <Route path="/" end element={<Navigate to="web2" />} />
         </Routes>
       </motion.div>
